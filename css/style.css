@@ -1,0 +1,36 @@
+.container{
+    font-family: 'Open Sans', sans-serif!important;
+}
+#banner-mobile{
+    display: none;
+}
+
+.text-white{    
+    color: rgba(255,255,255,.5);
+}
+.purple{
+    background-color:   rgb(159, 20, 172, 0.9);
+}
+.purple-text{
+    color: rgba(194, 23, 209, 0.9);
+}
+.footer-copyright{
+    background-color:   rgba(194, 23, 209, 0.9);
+}
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 576px){
+    #banner{
+        height: 110vw;
+    }
+    #banner-large{
+        display: none;
+    }
+    #banner-mobile{
+        display: block;
+        height: 100%;
+    }
+
+}
