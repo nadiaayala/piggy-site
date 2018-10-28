@@ -4,7 +4,6 @@
 #banner-mobile{
     display: none;
 }
-
 .text-white{    
     color: rgba(255,255,255,.5);
 }
@@ -13,6 +12,10 @@
 }
 .purple-text{
     color: rgba(194, 23, 209, 0.9);
+}
+input:focus{
+    border: solid rgba(194, 23, 209, 0.6)!important;
+    box-shadow: 0 0 0 0.1rem rgba(222, 68, 236, 0.3)!important;
 }
 .footer-copyright{
     background-color:   rgba(194, 23, 209, 0.9);
