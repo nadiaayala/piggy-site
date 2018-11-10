@@ -31,8 +31,8 @@
         <div class="banner col-xs-12" id="banner">
             <div class="row"> 
             <img src="img/banner6.jpg" class="col-md-12 col-lg-8 h-100" id="banner-large">
-            <div class="form-group d-none d-lg-block col-md-4">
-                    <form action="/action_page.php" id="form">
+            <div class="form-group d-none d-lg-block col-md-4 " >
+                    <form id="form">
                         <h1 class="text-center mt-md-1"> Cadastre-se!</h1>
                         <p class="text-center"> Nossa missão é ajudar você ao mudar o mundo. <br> O seu mundo!</p>                        
                         <div class="form-group mt-md-3">
@@ -43,13 +43,15 @@
                           <label for="email">Email</label>
                           <input type="email" class="form-control" id="emailSubscriber" required class="esse">
                         </div>
-                        <p> Minha criança é: </p>
-                        <div class="radio">
+                        <p class="text-center"> Minha criança é: </p>
+                        <div class="radios">
                           <label><input type="radio" name="optradio" checked>  Menina</label>
-                        </div>
-                        <div>
                           <label><input type="radio" name="optradio">  Menino</label>
-                        </div> 
+                        </div>                        
+                        <div class="sliderContainer">
+                            <p class="text-center"> E tem <span id="ageValue"> ... </span> anos! </p>
+                            <input type="range" id="ageInput" min="1" max="15" value="8">
+                        </div>
                         <div class="text-center"> 
                             <button type="submit" class="btn btn-lg purple text-white font-weight-bold" id="btnSubscriber">Cadastrar!</button> 
                         </div> 

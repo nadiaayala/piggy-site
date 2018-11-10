@@ -4,6 +4,34 @@
 #banner-mobile{
     display: none;
 }
+#ageInput{
+    -webkit-appearance: none;
+    width: 100%;
+    outline: none;
+    background: #d3d3d3;
+    opacity: 0.5;    
+}
+
+#ageInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(159, 20, 172, 0.9);
+    cursor: pointer;    
+}
+#btnSubscriber{
+    margin-top: 15px;
+    
+}
+.sliderContainer{
+    width: 100%;    
+}
+.radios{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
 .text-white{    
     color: rgba(255,255,255,.5);
 }
@@ -13,7 +41,8 @@
 .purple-text{
     color: rgba(194, 23, 209, 0.9);
 }
-input:focus{
+/* Selecting all inputs except for the range ones: */
+input:not([type=range]):focus{
     border: solid rgba(194, 23, 209, 0.6)!important;
     box-shadow: 0 0 0 0.1rem rgba(222, 68, 236, 0.3)!important;
 }
